@@ -1,0 +1,23 @@
+p {margin: 10px 10px 0px 20px; line-height: 120%;}
+body {font-size: 20px;
+font-family: 'Courier New', Courier, monospace;}
+
+.button {text-align: center;
+margin-bottom: 15px;
+padding: 4px 0px 4px 0px;
+border-style: none;
+width: 100px;
+height: 25px;
+font-size: 20px;
+color: white;
+background-color: rgb(4, 4, 119);
+}
+
+.button:hover {text-align: center;
+margin-bottom: 15px;
+padding: 4px 0px 4px 0px;
+border-style: thick;
+font-size: 20px;
+color: white;
+background-color: black;
+}
