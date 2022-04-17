@@ -1,0 +1,95 @@
+p {margin: 10px 10px 0px 20px; line-height: 120%;}
+body {font-size: 20px;
+font-family: 'Courier New', Courier, monospace;}
+div{float: center;}
+
+.center_align{text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.button {text-align: center;
+margin-bottom: 15px;
+padding: 4px 0px 4px 0px;
+border-style: none;
+width: 100px;
+height: 25px;
+font-size: 20px;
+color: white;
+background-color: rgb(4, 4, 119);
+}
+
+.button:hover {text-align: center;
+margin-bottom: 15px;
+padding: 4px 0px 4px 0px;
+border-style: thick;
+font-size: 20px;
+color: white;
+background-color: black;
+}
+
+.requirement{height: 2px;
+    align-items: center;
+}
+
+.imagerotate{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin: 60px auto;
+    background-color: peachpuff;
+    transition: all ease 2s;
+}
+
+.imagerotate:hover{
+    text-align: center;
+    display: block;
+    margin: auto;
+    transform: rotate(360deg);
+}
+
+.imagebig{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin: 60px auto;
+    margin-top: 300px;
+    background-color: peachpuff;
+    transition: all ease 2s;
+}
+
+.big_display{
+    margin: 30px;
+    width: 300px;
+    height: 450px;
+    background-color: #d5f7f2;
+    display: inline-block;
+    overflow: hidden;
+    text-align: right;
+}
+
+.imagebig:hover{
+    transform: scale(3,3); transform-origin: bottom;
+}
+
+.head_animation{font-size: 40px;
+    color: black;
+    animation-duration: 3s;
+    animation-name: slidein;}
+    
+@keyframes slidein {
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        text-align: center;
+        width: 100%;
+    }
+}
